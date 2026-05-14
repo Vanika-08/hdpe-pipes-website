@@ -246,32 +246,6 @@ appPrevBtn.addEventListener("click", () => {
 
 /* ===== Process Tabs ===== */
 
-// const processTabs = document.querySelectorAll(".process-tab");
-
-// const processTitle = document.getElementById("processTitle");
-// const processText = document.getElementById("processText");
-// const processPoint1 = document.getElementById("processPoint1");
-// const processPoint2 = document.getElementById("processPoint2");
-// const processImage = document.getElementById("processImage");
-
-// processTabs.forEach((tab) => {
-//   tab.addEventListener("click", () => {
-//     processTabs.forEach((item) => {
-//       item.classList.remove("active");
-//     });
-
-//     tab.classList.add("active");
-
-//     processTitle.innerHTML = tab.dataset.title;
-//     processText.innerHTML = tab.dataset.text;
-//     processPoint1.innerHTML = tab.dataset.point1;
-//     processPoint2.innerHTML = tab.dataset.point2;
-//     processImage.src = tab.dataset.image;
-//   });
-// });
-
-/* ===== Process Tabs ===== */
-
 const processTabs = document.querySelectorAll(".process-tab");
 
 const processTitle = document.getElementById("processTitle");
