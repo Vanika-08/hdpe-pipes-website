@@ -3009,4 +3009,8 @@ nav ul li  {
     justify-content: space-between;
     gap: 20px;
   }
+
+  .solution-card h3{
+    height: auto;
+  }
 }
